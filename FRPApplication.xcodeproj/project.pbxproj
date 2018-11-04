@@ -15,6 +15,7 @@
 		BCF3E609218F982400EDF773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF3E607218F982400EDF773 /* LaunchScreen.storyboard */; };
 		BCF3E614218F982400EDF773 /* FRPApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF3E613218F982400EDF773 /* FRPApplicationTests.swift */; };
 		BCF3E61F218F982400EDF773 /* FRPApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF3E61E218F982400EDF773 /* FRPApplicationUITests.swift */; };
+		BCF3E62D218F9CD200EDF773 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF3E62C218F9CD200EDF773 /* LoginViewModel.swift */; };
 		CF2013E656640BC8080ED4FD /* Pods_FRPApplicationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 657E36BD4A6128F19D8498C2 /* Pods_FRPApplicationUITests.framework */; };
 		D540B3D01768B1E8CDBB26D5 /* Pods_FRPApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87DA630D77BDC01AB65BE0F3 /* Pods_FRPApplication.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,7 @@
 		BCF3E61A218F982400EDF773 /* FRPApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRPApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF3E61E218F982400EDF773 /* FRPApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRPApplicationUITests.swift; sourceTree = "<group>"; };
 		BCF3E620218F982400EDF773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF3E62C218F9CD200EDF773 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		CA38D7955F9A3AD1E01E1B31 /* Pods-FRPApplicationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRPApplicationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FRPApplicationUITests/Pods-FRPApplicationUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E26E483FC1A7F26E9949456E /* Pods-FRPApplicationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRPApplicationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FRPApplicationTests/Pods-FRPApplicationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E8DB6A2A0B58532080010FFC /* Pods-FRPApplicationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRPApplicationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FRPApplicationUITests/Pods-FRPApplicationUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			children = (
 				BCF3E5FE218F982100EDF773 /* AppDelegate.swift */,
 				BCF3E600218F982100EDF773 /* ViewController.swift */,
+				BCF3E62C218F9CD200EDF773 /* LoginViewModel.swift */,
 				BCF3E602218F982100EDF773 /* Main.storyboard */,
 				BCF3E605218F982400EDF773 /* Assets.xcassets */,
 				BCF3E607218F982400EDF773 /* LaunchScreen.storyboard */,
@@ -422,6 +425,7 @@
 			files = (
 				BCF3E601218F982100EDF773 /* ViewController.swift in Sources */,
 				BCF3E5FF218F982100EDF773 /* AppDelegate.swift in Sources */,
+				BCF3E62D218F9CD200EDF773 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

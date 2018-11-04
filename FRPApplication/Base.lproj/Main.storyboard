@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="Ved-Yr-As9">
-                                <rect key="frame" x="64" y="282" width="247" height="103"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Ved-Yr-As9">
+                                <rect key="frame" x="64" y="285.5" width="247" height="96"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pA0-3g-JXY">
                                         <rect key="frame" x="0.0" y="0.0" width="247" height="40"/>
@@ -30,7 +30,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AAx-bU-sZ9">
-                                        <rect key="frame" x="0.0" y="63" width="247" height="40"/>
+                                        <rect key="frame" x="0.0" y="56" width="247" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="Ftt-p9-rpI"/>
                                         </constraints>
@@ -41,7 +41,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GeG-cQ-42A">
-                                <rect key="frame" x="64" y="401" width="247" height="40"/>
+                                <rect key="frame" x="64" y="397.5" width="247" height="40"/>
                                 <color key="backgroundColor" red="0.80373623699999996" green="0.6577120233" blue="0.1578369755" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="hnI-WB-piY"/>
@@ -52,7 +52,7 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enabled" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ygu-uM-cAY">
-                                <rect key="frame" x="156.5" y="457" width="62" height="20.5"/>
+                                <rect key="frame" x="156.5" y="453.5" width="62" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.4124199536" green="0.72403466699999997" blue="0.59248147689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -73,6 +73,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="loginButton" destination="GeG-cQ-42A" id="kKv-dM-v0T"/>
+                        <outlet property="passwordTextField" destination="AAx-bU-sZ9" id="lP9-tG-gl9"/>
+                        <outlet property="usernameTextField" destination="pA0-3g-JXY" id="pZa-Sd-8tT"/>
+                        <outlet property="validationLabel" destination="Ygu-uM-cAY" id="T2m-Ad-Mok"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
