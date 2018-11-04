@@ -1,0 +1,6 @@
+framework module Pods_FRPApplicationTests {
+  umbrella header "Pods-FRPApplicationTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
